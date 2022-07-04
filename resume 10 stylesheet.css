@@ -1,50 +1,64 @@
+     #styling {
+         background-color: white;
+     }
      
-        .jumbotron {
-            background-repeat: no-repeat;
-            background-attachment: fixed;
-            background-size: cover;
-        }
-        
-        .override-nav {
-            background-color: lightgray !important;
-            color: black !important;
-        }
-        /* The animation code*/
-        
-        @keyframes aboutMe {
-            0% {
-                background-color: pink;
-            }
-            15% {
-                background-color: peachpuff;
-            }
-            50% {
-                background-color: darksalmon;
-                border-radius: 10%;
-                border-style: dotted;
-            }
-            75% {
-                background-color: limegreen
-            }
-            100% {
-                background-color: pink;
-            }
-        }
-        /* The element to apply the animation to */
-        
-        .aboutMe {
-            background-color: white;
-            width: 100px;
-            height: 50px;
-            margin-top: 200px;
-            animation-name: aboutMe;
-            animation-duration: 1.5s;
-            animation-iteration-count: infinite;
-            animation-timing-function: ease-in;
-            animation-direction: alternate;
-        }
-
-        /*<body>
+     .jumbotron {
+         background-repeat: no-repeat;
+         background-attachment: fixed;
+         background-size: cover;
+     }
+     
+     .override-nav {
+         background-color: lightgray !important;
+         color: black !important;
+     }
+     /* The animation code*/
+     
+     @keyframes aboutMe {
+         0% {
+             background-color: pink;
+         }
+         15% {
+             background-color: peachpuff;
+         }
+         50% {
+             background-color: darksalmon;
+             border-radius: 10%;
+             border-style: dotted;
+         }
+         75% {
+             background-color: limegreen
+         }
+         100% {
+             background-color: pink;
+         }
+     }
+     /* The element to apply the animation to */
+     
+     .aboutMe {
+         background-color: white;
+         width: 100px;
+         height: 50px;
+         margin-top: 200px;
+         animation-name: aboutMe;
+         animation-duration: 1.5s;
+         animation-iteration-count: infinite;
+         animation-timing-function: ease-in;
+         animation-direction: alternate;
+     }
+     
+     .container {
+         background-color: pink;
+         text-align: center;
+         margin-top: 40px;
+         height: 500px;
+         margin-left: 20%;
+     }
+     
+     img {
+         float: left;
+     }
+     /*<body>
 
         <div class="jumbotron text-center" style="margin-bottom:48735%; background-image: url('./images/a\ lady\ with\ a\ hat.jpg')">
         <h1><br>Naledi Eulanda Maimela</h1>
@@ -79,6 +93,3 @@
                 </li>
             </ul>
            */
-    
-
-
