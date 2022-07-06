@@ -10,113 +10,82 @@
     <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
     <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.16.0/umd/popper.min.js"></script>
     <script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.5.2/js/bootstrap.min.js"></script>
-    <style>
-        .fakeimg {
-            height: 200px;
-            background: #4c4c;
-            box-shadow: 2px 2px 0px #666666;
-        }
-    </style>
+
 </head>
 
-<body id="styling">
+<body id="background-color">
     <header>
-        <div class="jumbotron text-center" style="margin-bottom:0">
-            <h1><br>A Simple Bootstrap 4 Template</h1>
-            <p>This page is responsive simply by using Bootstrap</p>
-        </div>
-    </header>
-    <nav class="navbar navbar-expand-md navbar-dark bg-dark fixed-top">
-        <a class="navbar-brand" href="#">Navbar</a>
-        <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarsExampleDefault" aria-controls="navbarsExampleDefault" aria-expanded="false" aria-label="Toggle navigation">
-            <span class="navbar-toggler-icon"></span>
-        </button>
+        <!--Navigation Section-->
 
-        <div class="collapse navbar-collapse" id="navbarsExampleDefault">
-            <ul class="navbar-nav mr-auto">
-                <li class="nav-item active">
-                    <a class="nav-link" href="#">Home <span class="sr-only">(current)</span></a>
-                </li>
-                <li class="nav-item">
-                    <a class="nav-link" href="#">Link</a>
-                </li>
-                <li class="nav-item">
-                    <a class="nav-link disabled" href="#" tabindex="-1" aria-disabled="true">Disabled</a>
-                </li>
-                <li class="nav-item dropdown">
-                    <a class="nav-link dropdown-toggle" href="#" id="dropdown01" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">Dropdown</a>
-                    <div class="dropdown-menu" aria-labelledby="dropdown01">
-                        <a class="dropdown-item" href="#">Action</a>
-                        <a class="dropdown-item" href="#">Another action</a>
-                        <a class="dropdown-item" href="#">Something else here</a>
-                    </div>
-                </li>
-            </ul>
-    </nav>
-    </div>
+        <nav class="navbar navbar-expand-md navbar-dark override-nav fixed-top">
 
-    <section>
-        <div>
-            <h3 class="container-fluid">About me</h3><img src="./images/smiley.jpg">
-            <img src="./images/smiley.jpg" alt="A lady smiling">
-        </div>
+            <h1>
+                <a class="navbar-brand text-dark">NALEDI EULANDA MAIMELA</a>
+            </h1>
 
+            <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#aNavbar" aria-controls="aNavbar" aria-expanded="true" aria-label="Toggle navigation">
+                <span class="navbar-toggler-icon"></span>
+            </button>
 
-    </section>
-    <!--<section>
-        <br>
-        <h2>Sub Heading</h2>
-        <div class="fakeimg">Fake Image</div>
+            <div class="collapse navbar-collapse" id="aNavbar">
 
-    </section>
-    <section class="col-sm-4">
-        <br>
-        <h2>Aside</h2>
-        <h5>Photo of me:</h5>
-        <div class="fakeimg">Fake Image</div>
-        <p>Some text about me </p>
-        <h3>Some Links</h3>
-        <p>Lorem ipsum dolor sit ame.</p>
-        <ul class="nav nav-pills flex-column">
-            <li class="nav-item">
-                <a class="nav-link active" href="#">Active</a>
-            </li>
-            <li class="nav-item">
-                <a class="nav-link" href="#">Link</a>
-            </li>
-            <li class="nav-item">
-                <a class="nav-link" href="#">Link</a>
-            </li>
-            <li class="nav-item">
-                <a class="nav-link disabled" href="#">Disabled</a>
-            </li>
-        </ul>
-        <hr class="d-sm-none">
-    </section>
+                <ul class="navbar-nav mr-auto">
 
-    </div>
-    </div>
+                    <li class="nav-item">
+                        <a class="nav-link text-dark" href="#Experience">Experience</a>
+                    </li>
 
-    <footer class="container">
-        <div class="jumbotron text-center" style="margin-bottom:0">
-            <div class="row">
-                <div class="col-sm-4">
-                    <ul class="nav nav-pills flex-column">
+                    <li class="nav-item">
+                        <a class="nav-link text-dark" href="#Education">Education</a>
+                    </li>
 
-                        <li class="nav-item">
-                            <a class="nav-link" href="#">Link</a>
-                        </li>
-                        <li class="nav-item">
-                            <a class="nav-link" href="#">Link</a>
-                        </li>
+                    <li class="nav-item dropdown">
 
-                    </ul>
-                </div>
-                <div class="col-sm-4">Sunt in culpa qui officia deserunt mollit anim id est laborum consectetur adipiscing elit,</div>
-                <div class="col-sm-4">Sunt in culpa qui officia deserunt mollit anim id est laborum consectetur adipiscing elit,</div>
+                        <a class="nav-link dropdown-toggle text-dark" href="#" id="dropdown01" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">Social Media</a>
+                        <div class="dropdown-menu" aria-labelledby="dropdown01">
+
+                            <a class="dropdown-item text-dark" href="https://www.instagram.com/sheismekwa/">Instagram</a>
+                            <a class="dropdown-item text-dark" href="https://www.linkedin.com/in/nmaimela/">LinkedIn</a>
+                            <a class="dropdown-item text-dark" href="https://twitter.com/sheismekwa">Twitter</a>
+                        </div>
+                    </li>
+                </ul>
             </div>
+        </nav>
+
+        <!--The Header Section-->
+
+        <div class="jumbotron-fluid text-center">
+            <img class="img-fluid" src="./images/pink wall.jpg">
+            <br>
+            <br>
+            <h3><b>Click Below For More Info</b></h3>
+            <button class="buttonChange" href="#About Me">About Me</button>
         </div>
-    </footer>
+
+    </header>
+
+    <!--The Body Section-->
+    <section>
+        <div class="container-1">
+
+            <article>
+                <h2>Main Site Heading</h2>
+                <h5>Title description, Dec 7, 2017</h5>
+                <div class="fakeimg">Fake Image</div>
+                <p>Some text..</p>
+                <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat.
+                </p>
+    </section>
+    <section>
+        <div class="container-2">
+            <div class="flex-container">
+                <div class="card-1">1guifthdcghvbjhgbyyhjc</div>
+                <div class="card-2">fhsxyrhfgcjgbkjgvcgf</div>
+                <div class="card-3">rsdfcgfvhgbjgfdxf</div>
+            </div>
+    </section>
+
 
 </body>
 

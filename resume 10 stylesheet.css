@@ -1,95 +1,84 @@
-     #styling {
-         background-color: white;
-     }
-     
-     .jumbotron {
-         background-repeat: no-repeat;
-         background-attachment: fixed;
-         background-size: cover;
-     }
-     
-     .override-nav {
-         background-color: lightgray !important;
-         color: black !important;
-     }
-     /* The animation code*/
-     
-     @keyframes aboutMe {
-         0% {
-             background-color: pink;
-         }
-         15% {
-             background-color: peachpuff;
-         }
-         50% {
-             background-color: darksalmon;
-             border-radius: 10%;
-             border-style: dotted;
-         }
-         75% {
-             background-color: limegreen
-         }
-         100% {
-             background-color: pink;
-         }
-     }
-     /* The element to apply the animation to */
-     
-     .aboutMe {
-         background-color: white;
-         width: 100px;
-         height: 50px;
-         margin-top: 200px;
-         animation-name: aboutMe;
-         animation-duration: 1.5s;
-         animation-iteration-count: infinite;
-         animation-timing-function: ease-in;
-         animation-direction: alternate;
-     }
-     
-     .container {
-         background-color: pink;
-         text-align: center;
-         margin-top: 40px;
-         height: 500px;
-         margin-left: 20%;
-     }
-     
-     img {
-         float: left;
-     }
-     /*<body>
+/* To style the body*/
 
-        <div class="jumbotron text-center" style="margin-bottom:48735%; background-image: url('./images/a\ lady\ with\ a\ hat.jpg')">
-        <h1><br>Naledi Eulanda Maimela</h1>
-        <button class="aboutMe" href="#">About Me</button>
-        </div>
-    
-        <nav class="navbar navbar-expand-md navbar-dark override-nav fixed-top">
-        <p class="navbar-brand text-dark">
-            <img src="./images/smiley.jpg" alt="A girl smiling" width="90px;" class="rounded-pill">
-        <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarsExampleDefault" aria-controls="navbarsExampleDefault" aria-expanded="false" aria-label="Toggle navigation">
-            <span class="navbar-toggler-icon"></span>
-        </button>
-    
-        <div class="collapse navbar-collapse" id="navbarsExampleDefault">
-            <ul class="navbar-nav mr-auto">
-                <li class="nav-item active">
-                    <h5 class="nav-link text-dark" href="#">Education <span class="sr-only">(current)</span></h5>
-                </li>
-                <li class="nav-item">
-                    <h5 class="nav-link text-dark" href="#">Experience</h5>
-                </li>
-                <li class="nav-item">
-                    <h5 class="nav-link text-dark" href="#">Get In Touch</h5>
-                </li>
-                <li class="nav-item dropdown">
-                    <a class="nav-link dropdown-toggle" href="#" id="dropdown01" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">Dropdown</a>
-                    <div class="dropdown-menu" aria-labelledby="dropdown01">
-                        <a class="dropdown-item" href="#">Action</a>
-                        <a class="dropdown-item" href="#">Another action</a>
-                        <a class="dropdown-item" href="#">Something else here</a>
-                    </div>
-                </li>
-            </ul>
-           */
+#background-color {
+    background-color: lightcoral;
+    font-family: Georgia, 'Times New Roman', Times, serif'
+
+}
+
+
+/* to override the color of the nav*/
+
+.override-nav {
+    background-color: pink !important;
+}
+
+
+/* The button animation code */
+
+@keyframes Welcome {
+    0% {
+        background-color: pink;
+    }
+    50% {
+        background-color: palegoldenrod;
+        border-radius: 10px 10px 10px 10px;
+        border-style: dotted;
+    }
+    75% {
+        background-color: lightblue;
+    }
+    100% {
+        background-color: lightpink;
+    }
+}
+
+
+/* The element to apply the animation to */
+
+.buttonChange {
+    width: 90px;
+    height: 40px;
+    animation-name: Welcome;
+    animation-duration: 1.5s;
+    animation-iteration-count: infinite;
+    animation-timing-function: ease-in;
+    animation-direction: alternate;
+}
+
+
+/* To style the jumbotron and image */
+
+.jumbotron-fluid {
+    padding-bottom: 10px;
+}
+
+
+/* To style the first container*/
+
+.container-1 {
+    background-color: pink;
+    padding-top: 50px;
+    margin-left: 50px;
+    margin-right: 50px;
+}
+
+.heading-1 {
+    text-align: center;
+}
+
+.text-style {
+    text-align: left;
+}
+
+
+/* To style the second container*/
+
+.container-2 {
+    background-color: pink;
+    padding-top: 20px;
+}
+
+.heading-2 {
+    text-align: center;
+}
