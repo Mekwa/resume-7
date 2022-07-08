@@ -178,7 +178,8 @@
             
             .style-links {
                 margin-top: 7%;
-                background-color: pink;
+                background-image: url('./images/a\ girl.jpg');
+                background-repeat: repeat-x;
                 height: 170px;
             }
             
