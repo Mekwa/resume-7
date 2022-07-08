@@ -1,84 +1,175 @@
-/* To style the body*/
+                /* To style the body*/
+                
+                #background-color {
+                    background-color: lightgoldenrodyellow;
+                    font-family: Georgia, 'Times New Roman', Times, serif'
 
-#background-color {
-    background-color: lightcoral;
-    font-family: Georgia, 'Times New Roman', Times, serif'
-
-}
-
-
-/* to override the color of the nav*/
-
-.override-nav {
-    background-color: pink !important;
-}
-
-
-/* The button animation code */
-
-@keyframes Welcome {
-    0% {
-        background-color: pink;
-    }
-    50% {
-        background-color: palegoldenrod;
-        border-radius: 10px 10px 10px 10px;
-        border-style: dotted;
-    }
-    75% {
-        background-color: lightblue;
-    }
-    100% {
-        background-color: lightpink;
-    }
-}
-
-
-/* The element to apply the animation to */
-
-.buttonChange {
-    width: 90px;
-    height: 40px;
-    animation-name: Welcome;
-    animation-duration: 1.5s;
-    animation-iteration-count: infinite;
-    animation-timing-function: ease-in;
-    animation-direction: alternate;
-}
-
-
-/* To style the jumbotron and image */
-
-.jumbotron-fluid {
-    padding-bottom: 10px;
-}
-
-
-/* To style the first container*/
-
-.container-1 {
-    background-color: pink;
-    padding-top: 50px;
-    margin-left: 50px;
-    margin-right: 50px;
-}
-
-.heading-1 {
-    text-align: center;
-}
-
-.text-style {
-    text-align: left;
-}
-
-
-/* To style the second container*/
-
-.container-2 {
-    background-color: pink;
-    padding-top: 20px;
-}
-
-.heading-2 {
-    text-align: center;
-}
+                }
+                /* to override the color of the nav*/
+                
+                .override-nav {
+                    background-color: pink !important;
+                }
+                /* The button animation code */
+                
+                @keyframes Welcome {
+                    0% {
+                        background-color: pink;
+                    }
+                    50% {
+                        background-color: palegoldenrod;
+                        border-radius: 10px 10px 10px 10px;
+                        border-style: dotted;
+                    }
+                    75% {
+                        background-color: lightblue;
+                    }
+                    100% {
+                        background-color: lightpink;
+                    }
+                }
+                /* The element to apply the animation to */
+                
+                .buttonChange {
+                    width: 90px;
+                    height: 40px;
+                    animation-name: Welcome;
+                    animation-duration: 1.5s;
+                    animation-iteration-count: infinite;
+                    animation-timing-function: ease-in;
+                    animation-direction: alternate;
+                }
+                /* To style the jumbotron and image */
+                
+                .jumbotron-fluid {
+                    padding-bottom: 10px;
+                }
+                /* To style the first container*/
+                
+                .container-1 {
+                    background-color: pink;
+                    padding-top: 50px;
+                    padding-bottom: 120px;
+                }
+                
+                .heading-1 {
+                    text-align: center;
+                }
+                
+                .text-style {
+                    text-align: left;
+                    background-color: pink;
+                }
+                /* To style the second container*/
+                
+                .container-2 {
+                    margin-top: 50px;
+                    padding-bottom: 50px;
+                    margin-bottom: 5px;
+                }
+                
+                .heading-2 {
+                    text-align: center;
+                }
+                /* To style the row class */
+                
+                .row {
+                    padding-left: 10%;
+                    padding-right: 10%;
+                    padding-top: 10%;
+                    padding-bottom: 10%;
+                    background-color: pink;
+                    display: flex;
+                }
+                
+                .col {
+                    padding-bottom: 10%;
+                    padding-top: 10%;
+                    background-color: purple;
+                    color: white;
+                }
+                
+                .col-lg-6 {
+                    padding-bottom: 10%;
+                    padding-top: 10%;
+                    background-color: lightyellow;
+                }
+                /* To style the title certificates*/
+                
+                .certificates {
+                    text-align: center;
+                }
+                
+                #slideShow {
+                    background-color: pink;
+                    padding-bottom: 10%;
+                    margin-bottom: 10%;
+                }
+                /*To style the Awards and acknowledgments section*/
+                
+                .carousel-item {
+                    text-align: center;
+                    width: 10%;
+                    height: 800px;
+                    margin-bottom: 10%;
+                }
+                /* To style the work and experience section*/
+                
+                .row {
+                    background-color: pink;
+                    padding-bottom: 50px;
+                    margin-bottom: 50px;
+                }
+                
+                .heading-3 {
+                    text-align: center;
+                }
+                
+                .col {
+                    color: black;
+                }
+                /*Styling the fourth heading*/
+                
+                .heading-4 {
+                    text-align: center;
+                }
+                /*styling the card columns*/
+                
+                .card-deck {
+                    background-color: pink;
+                }
+                
+                .container-fluid-5 {
+                    margin-top: 15px;
+                    background-color: pink;
+                }
+                
+                .heading-5 {
+                    text-align: center;
+                    margin-top: 10%;
+                }
+                
+                .card-text {
+                    text-align: center;
+                }
+                
+                .measurements {
+                    width: 420px;
+                    height: 315px;
+                }
+                /* Adding some styling to the cards*/
+                
+                .heading-6 {
+                    text-align: center;
+                    margin-top: 10%;
+                }
+                
+                .heading-7 {}
+                
+                .form {
+                    background-color: pink;
+                }
+                
+                .form-control {
+                    background-color: pink;
+                }
