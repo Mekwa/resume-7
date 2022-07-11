@@ -1,0 +1,107 @@
+    /* Styling the whole body*/
+    
+    #back-color {
+        background-color: lightgoldenrodyellow;
+        font-family: Verdana, Geneva, Tahoma, sans-serif;
+    }
+    /* To style the color of the nav*/
+    
+    .col-12 {
+        background-color: lightgoldenrodyellow;
+    }
+    /* Styling my jumbotron*/
+    
+    .lead {
+        margin-left: 3%;
+        margin-right: 3%;
+    }
+    /* Styling the row containers*/
+    
+    .col-lg-4 {
+        padding-top: 70px;
+        padding-bottom: 60px;
+    }
+    /* Styling the button*/
+    
+    .btn-outline-warning {
+        margin-left: 45%;
+    }
+    /* The button animation code */
+    
+    @keyframes buttonChange {
+        0% {
+            background-color: red;
+        }
+        50% {
+            background-color: rebeccapurple;
+            border-radius: 10px 10px 10px 10px;
+            border-style: dotted;
+        }
+        75% {
+            background-color: yellow;
+        }
+        100% {
+            background-color: blue;
+        }
+    }
+    /* The element to apply the animation to */
+    
+    .buttonChange {
+        width: auto;
+        height: 50px;
+        animation-name: buttonChange;
+        animation-duration: 1.5s;
+        animation-iteration-count: infinite;
+        animation-timing-function: ease-in;
+        animation-direction: alternate;
+        background: transparent;
+    }
+    
+    .instagram {
+        width: 60px;
+        height: 60px;
+        border-radius: 100%;
+        background: transparent;
+    }
+    
+    .facebook {
+        width: 60px;
+        height: 60px;
+        border-radius: 100%;
+        background: transparent;
+    }
+    
+    .LinkedIn {
+        width: 60px;
+        height: 60px;
+        border-radius: 100%;
+        background: transparent;
+    }
+    
+    .twitter {
+        width: 60px;
+        height: 60px;
+        border-radius: 100%;
+        background: transparent;
+    }
+    
+    .outlook {
+        width: 60px;
+        height: 60px;
+        border-radius: 100%;
+        background: transparent;
+    }
+    
+    .col-12 {
+        text-align: center;
+    }
+    
+    .col-color {
+        background-color: gray;
+        padding-bottom: 3%;
+        padding-top: 3%;
+    }
+    
+    footer {
+        display: block;
+    }
