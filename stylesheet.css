@@ -1,25 +1,56 @@
     /* Styling the whole body*/
     
     #back-color {
-        background-color: lightgoldenrodyellow;
+        background-color: #90a4ae;
         font-family: Verdana, Geneva, Tahoma, sans-serif;
+        text-align: center;
     }
-    /* To style the color of the nav*/
+    /* Resizing the image*/
     
-    .col-12 {
-        background-color: lightgoldenrodyellow;
+    .display-4 {
+        color: white;
     }
-    /* Styling my jumbotron*/
+    /* Shifting the nav bar*/
+    
+    .nav-item {
+        margin-right: 140px;
+    }
     
     .lead {
         margin-left: 3%;
         margin-right: 3%;
+    }
+    /* To style the color of the nav*/
+    
+    .col-12 {
+        background-color: lightgrey;
     }
     /* Styling the row containers*/
     
     .col-lg-4 {
         padding-top: 70px;
         padding-bottom: 60px;
+    }
+    /*Resizing the carousel*/
+    
+    .display-5 {
+        padding-top: 3%;
+    }
+    
+    .carousel-inner {
+        background-color: #90a4ae;
+        margin-top: 3%;
+    }
+    /*Adding style to the cards*/
+    
+    .card {
+        margin-top: 10%;
+    }
+    /*Styling the forms*/
+    
+    .form-group {
+        margin-left: 5%;
+        margin-top: 3%;
     }
     /* Styling the button*/
     
@@ -28,39 +59,44 @@
     }
     /* The button animation code */
     
-    @keyframes buttonChange {
+    @keyframes submit {
         0% {
-            background-color: red;
+            background-color: lightgrey;
         }
         50% {
-            background-color: rebeccapurple;
             border-radius: 10px 10px 10px 10px;
-            border-style: dotted;
-        }
-        75% {
-            background-color: yellow;
+            border-style: solid
         }
         100% {
-            background-color: blue;
+            background-color: lightslategray;
         }
     }
     /* The element to apply the animation to */
     
-    .buttonChange {
+    .submit {
         width: auto;
-        height: 50px;
-        animation-name: buttonChange;
+        height: 40px;
+        animation-name: submit;
         animation-duration: 1.5s;
         animation-iteration-count: infinite;
         animation-timing-function: ease-in;
         animation-direction: alternate;
         background: transparent;
+        margin-left: 70px;
+    }
+    /* Styling the social icons*/
+    
+    .col-10 {
+        background-color: lightgray;
+        padding-right: 90px;
     }
     
     .instagram {
         width: 60px;
         height: 60px;
         border-radius: 100%;
+        padding-right: 10px;
+        padding-left: 10px;
         background: transparent;
     }
     
@@ -68,6 +104,8 @@
         width: 60px;
         height: 60px;
         border-radius: 100%;
+        padding-right: 10px;
+        padding-left: 10px;
         background: transparent;
     }
     
@@ -75,6 +113,8 @@
         width: 60px;
         height: 60px;
         border-radius: 100%;
+        padding-right: 10px;
+        padding-left: 10px;
         background: transparent;
     }
     
@@ -82,6 +122,8 @@
         width: 60px;
         height: 60px;
         border-radius: 100%;
+        padding-right: 10px;
+        padding-left: 10px;
         background: transparent;
     }
     
@@ -89,19 +131,16 @@
         width: 60px;
         height: 60px;
         border-radius: 100%;
+        padding-right: 10px;
+        padding-left: 10px;
         background: transparent;
     }
     
     .col-12 {
         text-align: center;
+        padding-bottom: 3%;
     }
     
     .col-color {
-        background-color: gray;
-        padding-bottom: 3%;
-        padding-top: 3%;
-    }
-    
-    footer {
-        display: block;
+        padding-top: 2%;
     }
